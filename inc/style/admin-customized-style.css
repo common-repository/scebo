@@ -1,0 +1,111 @@
+/*
+Stylesheet for overwiting default WordPress admin look
+*/
+
+a {
+        text-decoration: none !important;
+}
+
+strong a{
+        /*font-weight: normal !important;*/
+}
+
+thead {
+        border-top: 1px solid #d0d0d0 !important;
+}
+
+tfoot {
+        display:none;
+}
+
+.check-column {
+        background-color: #fff !important;
+}
+
+#cb {
+        background-color: #f5f5f5 !important;
+}
+
+table {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+        font-size: 12px !important;
+        background: #fff !important;
+        width: 98% !important;
+        border-spacing: 0;
+        text-align: left !important;
+        border: 1px solid #d0d0d0 !important;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        margin: 20px 0 20px 0 !important;
+}
+
+table th {
+        font-size: 12px !important;
+        color: #454545 !important;
+        padding: 10px 8px !important;
+        background: #f3f3f3 !important;
+        font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        color: #202323 !important;
+        font-weight: bold !important;
+        border-width: 0px 0 !important;
+}
+
+table th a {
+        padding: 0px 0px 0px !important;
+}
+
+table th:first-child {
+        -moz-border-radius: 3px 0 0 0;
+        -webkit-border-radius: 3px 0 0 0;
+        border-radius: 3px 0 0 0;
+}
+
+table th:last-child {
+        -moz-border-radius: 0 3px 0 0;
+        -webkit-border-radius: 0 3px 0 0;
+        border-radius: 0 3px 0 0;
+}
+
+table th:only-child {
+        -moz-border-radius: 3px 3px 0 0;
+        -webkit-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+}
+
+table tr:last-child table td:first-child {
+        -moz-border-radius: 0 0 0 3px;
+        -webkit-border-radius: 0 0 0 3px;
+        border-radius: 0 0 0 3px;
+}
+
+table tr:last-child table td:last-child {
+        -moz-border-radius: 0 0 3px 0;
+        -webkit-border-radius: 0 0 3px 0;
+        border-radius: 0 0 3px 0;
+}
+
+table td {
+        border-bottom: none !important;
+        border-top: none !important;
+        color: #454545 !important;
+        padding: 15px 10px !important;
+        background: #fff !important;
+}
+
+table th {
+        border-bottom: none !important;
+}
+
+table td {
+        border-top: 1px solid #E6E6E6 !important;
+}
+
+table th.check-column[scope=row] {
+        border-top: 1px solid #E6E6E6 !important;
+        padding-top: 20px !important;
+}
+
+.table-ticket-title {
+        font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

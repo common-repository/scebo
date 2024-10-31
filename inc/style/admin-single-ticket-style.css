@@ -1,0 +1,59 @@
+/*
+Stylesheet for overwiting default WordPress single post look
+*/
+
+
+#poststuff #post-body.columns-2 {
+        margin-right: 500px;
+}
+
+#post-body.columns-2 #postbox-container-1 {
+        float: right;
+        margin-right: -450px;
+        width: 400px;
+}
+
+.widget, #widget-list .widget-top, .postbox, .menu-item-settings {
+        background-color: #fcfcfc;
+        background-image: none;
+        border-color: #DFDFDF;
+        -webkit-box-shadow: inset 0 1px 0 white;
+        box-shadow: inset 0 1px 0 white;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+}
+
+.widget .widget-top, .postbox h3, .stuffbox h3, .widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .sidebar-name, #nav-menu-header, #nav-menu-footer, .menu-item-handle {
+        background: #f3f3f3;
+        background-image: none;
+}
+
+#poststuff h3, .metabox-holder h3 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+table tr th.scb_ticket_details {
+        width: 35%;
+        text-align: left;
+        height: 40px;
+}
+
+table tr th.scb_agent_ticket_details {
+        width: 35%;
+        text-align: left;
+        height: 40px;
+}
+
+table tr th.preres_agent_ticket_details {
+        width: 35%;
+        text-align: left;
+        height: 40px;
+}
+
+table tr td select.postform {
+        width: 230px;       
+}

@@ -1,0 +1,61 @@
+.tickets-meta {
+
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.tickets-meta span {
+    font-weight: bold;
+}
+
+.status {
+    float: left;
+    width: auto;
+    background: #ccc;
+    color: white;
+    font-size: 12px;
+    padding: 3px 5px 3px 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.channel-support-system {
+    float: left;
+    margin-top: 2px;
+    padding-left: 10px;
+    width: 10px;
+    height: 10px;
+    background: url('../style/img/support-system-channel.gif') no-repeat;
+}
+
+.channel-email {
+    float: left;
+    margin-top: 2px;
+    width: 10px;
+    height: 10px;
+    background: url('../style/img/support-email.gif');
+}
+
+
+#scb_id {
+    width: 50px;
+}
+
+
+#scb_title {
+    width: 430px;
+}
+
+#scb_channel {
+    width: 10px;
+}
+
